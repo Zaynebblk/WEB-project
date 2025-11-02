@@ -28,6 +28,11 @@ body {
   padding: 15px 40px;
   font-size: 16px;
 }
+.left-content{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
 #slogan{
     padding:4px 150px;
     font-style: italic;
@@ -46,7 +51,19 @@ body {
   font-size: 45px;
 }
 
-
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content:left;
+  gap: 35px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #020657;
+  font-weight: 600;
+  font-size: 20px;
+  transition: color 0.3s;
+}
 
 
 
