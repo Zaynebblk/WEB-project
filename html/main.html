@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Main Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Facturation - Gestion d'Entreprise</title>
+    <link href="main.css/main.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Welcome to the Main Page 🎉</h1>
+    <div class="sidebar">
+        <div class="logo">e-Facturation</div>
+        <ul class="nav-tabs">
+            <li>Tableau de Bord</li>
+            <li>Articles</li>
+            <li>Clients</li>
+            <li>Facturation</li>
+            <li>Paramètres</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="dashboard">
+            <h2>Tableau de Bord</h2>
+            <div class="chart-placeholder">
+                <img src="image/graphe.png" alt="Graphique des ventes de la semaine">
+            </div>
+            <div class="stats-container">
+                <h3>Vue d'ensemble des statistiques</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">24,580 dinar</div>
+                        <div class="stat-label">Chiffre d'affaires du mois</div>
+                        <div class="stat-trend trend-up">↑ 12% vs mois dernier</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-value">156</div>
+                        <div class="stat-label">Factures émises</div>
+                        <div class="stat-trend trend-up">↑ 8% vs mois dernier</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-value">42</div>
+                        <div class="stat-label">Nouveaux clients</div>
+                        <div class="stat-trend trend-up">↑ 15% vs mois dernier</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-value">18,340 dinar</div>
+                        <div class="stat-label">Encaissements du mois</div>
+                        <div class="stat-trend trend-down">↓ 5% vs mois dernier</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-value">87%</div>
+                        <div class="stat-label">Taux de paiement</div>
+                        <div class="stat-trend trend-up">↑ 3% vs mois dernier</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-value">2.3 jours</div>
+                        <div class="stat-label">Délai moyen de paiement</div>
+                        <div class="stat-trend trend-down">↓ 0.5 jours</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="services">
+                <h3>Nos Services</h3>
+                <ul>
+                    <li>Gestion des factures</li>
+                    <li>Suivi des clients</li>
+                    <li>Gestion des stocks</li>
+                    <li>Comptabilité automatisée</li>
+                    <li>Rapports financiers</li>
+                    <li>Facturation électronique</li>
+                </ul>
+            </div>
+            <div class="communications">
+                <h3>Contact & Communications</h3>
+                <ul>
+                    <li>Email: contact@e-facturation.com</li>
+                    <li>Téléphone: 55 181 294</li>
+                    <li>Support technique</li>
+                    <li>Documentation</li>
+                    <li>Centre d'aide</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
