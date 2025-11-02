@@ -203,17 +203,22 @@ footer {
   margin: 10px 8px;
   border: none;
   border-radius: 6px;
-  font-size:15px;
-  font-weight: 700;
+  
   cursor: pointer;
   transition: 0.3s;
-  color:white;
+  
   background:#2a026a;
   
 }
 
-
-
+.footer-buttons .btn a{
+color:white;
+font-size:15px;
+  font-weight: 700;
+  text-align:center;
+  text-decoration:none ;
+  font-family: Tahoma, sans-serif ;
+}
 
 .footer-buttons .btn:hover {
   transform: translateY(3px);
