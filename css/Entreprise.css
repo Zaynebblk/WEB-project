@@ -22,23 +22,16 @@ body {
   width: 100%;
   background: transparent;
   padding: 1rem 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  
 }
-nav h1{
-  font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
-  font-weight:800px;
-  font-size:40px;
-  color:rgb(35, 35, 125);
-}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -47,7 +40,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #042172;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -63,15 +56,25 @@ nav a:hover {
   font-size: 1.8rem;
   font-weight: 700;
   color: #042172;
+  
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1{
+  font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-weight:800px;
+  font-size:40px;
+  color:rgb(35, 35, 125);
 }
 
 
 .mainsection {
-
+  
   display: column;
   justify-content: column;
   align-items: center;
-  padding: 6rem 8rem;
+  padding: 3rem 8rem;
   flex-wrap: wrap;
   
 }
@@ -151,7 +154,7 @@ footer {
 
 .social-icons a {
   
-  color: #fff;
+  color: #0a66c2;
   margin: 0 10px;
   font-size: 30px;
   transition: transform 0.3s ease, color 0.3s ease;
@@ -161,9 +164,9 @@ footer {
   transform: scale(1.2);
 }
 
-.facebook:hover { color: #1877f2; }
+.facebook:hover { color: #150566; }
 .instagram:hover { color: #e4405f; }
-.linkedin:hover { color: #0a66c2; }
+.linkedin:hover { color: #150566; }
 .fade-in {
   opacity: 0;
   animation: fadeIn 1.5s ease-in forwards;

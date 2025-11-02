@@ -9,7 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: #f3f3f3;
+  background: #f3eeee;
+  
 }
 
 
@@ -17,9 +18,10 @@ body {
 
 
 .navbar {
+  height:12vh;
   width: 100%;
-  background: linear-gradient(135deg, #032343, #4a52e3);
-  color: #ffffff;
+  background:  #e1e3fc;
+    color: #020657;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +38,7 @@ body {
 .navbar .logo {
   font-weight: 700;
   font-size: 22px;
+  
 }
 .navbar h1 {
   font-family:  Verdana, sans-serif;
@@ -55,9 +58,11 @@ body {
   max-width: 950px;
   height: 500px;
   margin: 60px auto;
-  border-radius: 15px;
+ 
   overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+border-radius: 15px;
+animation: float 3s ease-in-out infinite;
 }
 
 
@@ -67,7 +72,7 @@ body {
 .left-panel {
 
   flex: 1;
-  background: linear-gradient(135deg, #032343, #2c22a3);
+  background: linear-gradient(135deg, #032343, #2c22a3,#6b61d3,#f5f7f8,#f5f7f8);
   color: white;
   display: flex;
   flex-direction: column;
@@ -177,10 +182,13 @@ button:hover {
 
 
 footer {
+  height:10vh;
   text-align: center;
-  background:  linear-gradient(135deg, #4a52e3,#032343);;
+  background:  #e1e3fc;
+  
   padding: 20px 0px 0px;
   box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+  opacity:0.9;
   
 }
 
@@ -217,7 +225,7 @@ footer p {
     font-family:cursive;
   font-size: 17px;
   font-weight: 700px;
-  color: #ffffff;
+  color: #020657;
 }
 
 
@@ -236,3 +244,10 @@ footer p {
     text-align: center;
   }
 }
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }}
