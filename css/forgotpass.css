@@ -1,0 +1,126 @@
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #baccda;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: #333;
+}
+
+
+.container {
+  text-align: center;
+  animation: fadeInBody 2s ease-in-out;
+}
+
+
+.container h2 {
+  color: #16065d;
+  font-size: 40px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  opacity: 0;
+  animation: fadeInText 2.5s ease forwards;
+}
+
+
+.form-box {
+  height:550px;
+  background: #fff;
+  width: 750px;
+  padding: 30px 25px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideUp 3s ease forwards 0.5s;
+  
+}
+
+
+.form-box h3 {
+  color: #0663af;
+  margin-bottom: 50px;
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+
+.form-box p {
+  font-size: 25px;
+  color: #777;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-top: 20px;
+}
+.form-box p .login{
+  color: #0663af;
+  text-decoration: none;
+}
+
+.form-box input[type="email"] {
+  width: 100%;
+  padding: 17px;
+  margin-top: 20px;
+  border: 1px solid #bebcbc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(0, 88, 163, 0.3);
+  transform: scale(1.02);
+}
+
+
+.form-box button {
+  background-color: #0663af;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  padding: 18px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  width:40%;
+  transition: 0.3s ease;
+}
+
+.form-box button:hover {
+  background-color: #58b7fb;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+
+footer {
+  margin-top:20px;
+  font-size: 16px;
+  color: #180470;
+  position:relative;
+  bottom: 0px;
+}
+@keyframes fadeInBody {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInText {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInFooter {
+  to { opacity: 1; }
+}
